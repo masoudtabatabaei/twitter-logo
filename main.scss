@@ -1,0 +1,129 @@
+$logo-size : 300px;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: Poppins;
+}
+
+
+.twitter-logo {
+    position: relative;
+    width: $logo-size;
+    height: $logo-size;
+    margin: 0 auto;
+
+    > div {
+        position: absolute;
+        background-color: #1d9bf0;
+        border-radius: 100%;
+
+        &[class*="-none"] {
+            background-color: #ffffff;
+        }
+    }
+
+    .head {
+        width: 72px;
+        height: 72px;
+        top: 78px;
+        left: 148px;
+        z-index: 1;
+    }
+
+    .body {
+        width: 206px;
+        height: 206px;
+        top: 16px;
+        left: 15px;
+    }
+
+    .body-none {
+        width: 150px;
+        height: 150px;
+        top: 56px;
+        left: -6px;
+    }
+
+    .beak-bottom {
+        width: 100px;
+        height: 100px;
+        top: 30px;
+        left: 145px;
+    }
+
+    .beak-bottom-none {
+        width: 115px;
+        height: 115px;
+        top: -6px;
+        left: 155px;
+    }
+
+    .beak-top {
+        width: 65px;
+        height: 65px;
+        top: 52px;
+        left: 168px;
+    }
+
+    .beak-top-none {
+        width: 115px;
+        height: 115px;
+        top: -25px;
+        left: 144px;
+    }
+
+    .wing-bottom {
+        width: 70px;
+        height: 70px;
+        top: 121px;
+        left: 80px;
+    }
+
+    .wing-bottom-none {
+        width: 60px;
+        height: 60px;
+        top: 106px;
+        left: 58px;
+    }
+
+    .wing-middle {
+        width: 88px;
+        height: 73px;
+        top: 95px;
+        left: 68px;
+    }
+
+    .wing-middle-none {
+        width: 160px;
+        height: 160px;
+        top: -25px;
+        left: 20px;
+    }
+
+    .wing-top {
+        width: 88px;
+        height: 77px;
+        top: 65px;
+        left: 68px;
+    }
+
+    .wing-top-none {
+        width: 200px;
+        height: 200px;
+        top: -77px;
+        left: 53px;
+    }
+
+    .text-logo {
+        bottom: 40px;
+        left: 50%;
+        background-color: transparent;
+        font-size: 1.5rem;
+        font-weight: 600;
+        transform: translate(-50%, 50%);
+        color: #1d9bf0;
+    }
+}
